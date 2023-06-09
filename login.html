@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset {
+            width: fit-content;
+            padding: 30px;
+            background-color: rgba(95, 158, 160, 0.247);
+            margin-top: 100px;
+            border-radius: 10px;
+            box-shadow: 1px 2px 9px 1px;
+        }
+
+        form {
+            margin-left: 40%;
+        }
+
+        input {
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            cursor: url(thunder.png),auto;
+
+
+        }
+
+        #sub {
+            cursor: url(heart1.png), auto;
+            color: darkcyan;
+        }
+
+        #sub:hover {
+            background-color: rgba(128, 128, 128, 0.651);
+            transition: 3s;
+            color: black;
+        }
+
+        #para {
+            margin-left: 90px;
+            color: white;
+        }
+
+        #para a {
+            text-decoration: none;
+            color: red;
+        }
+
+        body {
+            background-image: url(https://t4.ftcdn.net/jpg/04/60/71/01/360_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg);
+            /* background: rgb(63,94,251); */
+            /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,241,1) 100%); */
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" name="form" onsubmit="return login()">
+        <fieldset>
+            <legend style="margin: auto;color: rgb(255, 255, 255);">login</legend>
+            <input type="text" placeholder="Enter user name" name="uname" id="uname"><br><br>
+            <input type="password" placeholder="enter password" name="pass" id="pass"> <br><br>
+            <input type="submit" id="sub">
+        </fieldse`t><br>
+        <p id="para">
+            <span> New Registration?</span><a href="regval.html" target="_blank">click here</a>
+
+
+        </p>
+    </form>
+    <script src="login.js"></script>
+</body>
+
+</html>

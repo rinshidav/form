@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="regval.css">
+</head>
+<body>
+    
+    <h1>REGISTRATION</h1>
+    <form name="myform"  action="login.html" onsubmit="return validate()">
+        <fieldset>
+            <legend>REGISTRATION form</legend>
+        <label for="">First Name :</label>
+        <input type="text" placeholder="" id="fname" name="nm"><br><br>
+        <label for="">Last Name :</label>
+        <input type="text" id="lname" name="lnm"><br><br>
+        <label for="">Email :</label>
+        <input type="email" placeholder="Enter your email" id="email" name="mail"><br><br>
+        <label for="">Password :</label>
+        <input type="password" id="pass" name="pswd"><br><br>
+        <label for="">Confirm <br> Password :</label>
+        <input type="password" id="cpass" name="cpswd"><br><br>
+        <label for="">Address :</label>
+        <textarea name="adrs" id="add" cols="39" rows="4"></textarea><br><br>
+        <div class="btn" style="display: flex;justify-content: center;">
+            <input type="submit" id="sub">
+        </div>
+        </fieldset>
+    </form>
+
+
+    <script src="regval.js"></script>
+</body>
+</html>
